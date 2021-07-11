@@ -251,13 +251,11 @@ section h5 span{
   border-bottom: 1px solid black;
   font-size: 1.5rem;
   }
-
+  
   section h5{font-size: 1.3rem;}
   section h5 span{
-
-  top: 70px;
-
-  }
+    top:70px;
+    }
 
 /*----------this is footer-----------*/
 .mobile-container .foot{
