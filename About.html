@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+    
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+      *{
+        margin: 0;padding: 0;
+        box-sizing: border-box;
+      }
+      
+      #preloader{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #fff url(loader.gif) no-repeat center;
+  z-index: 9999;
+}
+      
+      body{
+        background: #E8FBFF;
+        text-decoration: none;
+        font-family: sans-serif;
+      }
+      
+       .container{
+         display:inline-flex;
+         list-style: none;
+         align-items: center;
+        /* background:rgb(76,175,80);*/
+         background:#4caf50;
+         background-blend-mode: darken;
+         border-bottom: 3px solid black;
+         width:100vw;
+         height: 2.8rem;
+         position: sticky;
+         top: 0;
+       }
+       .logo{
+         display: flex;
+         align-items: center;
+         width: 35vw;
+         height: 100%;
+       }
+       .logo li a{
+         font-size: 2rem;
+         padding-left: 1rem;
+         color: #fff;
+         letter-spacing: 4px;
+         cursor: pointer;
+       }
+       
+       .menu{
+         display:flex;
+         justify-content: space-evenly;
+         align-items: center;
+         width: 65vw;
+         height:100%;
+       }
+       
+       .container a{
+         text-decoration: none;
+         -webkit-text-stroke-width: 2px;
+         color: #333;
+       }
+       .container li{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 1rem;
+         font-size: 1.4rem;
+         color: #333;
+       }
+       .container i{
+        -webkit-text-stroke-width: 0px;
+        margin-right: 0.8rem;
+       }
+      
+      /*------section--------*/
+      
+      
+      section{
+        display:flex;
+        flex-direction: row;
+        height: 100vh;
+      }
+      
+      section div{
+        -webkit-text-stroke-width: 1.2px;
+        margin: auto;
+        font-size: 2rem;
+        color: #555;
+      }
+      .section{
+        margin: 10px auto;
+      }
+      .section img{
+        display: flex;
+        width: 19rem;
+        height: auto;
+        border: 2px solid black;
+        margin: 0;
+      }
+      
+      section h5{
+        border-bottom: 5px solid black;
+        color: #333;
+        letter-spacing: 3px;
+      }
+      
+      .sec1{
+        background:#4caf50;
+        min-height: 19rem;
+        height:19rem;
+        padding-left: 8px;
+        border:5px solid black;
+        text-decoration: none;
+        list-style: none;
+        margin: 10px auto;
+      }
+      section i{
+        font-size: 1.5rem;
+        padding-right: 11px;
+      }
+      section li{
+      border-top: 5px solid black;
+      color: #ddd;
+      letter-spacing: 3px;
+      font-size: 1.9rem;
+      }
+      
+      /*---footer----*/
+      
+    .foot{
+      -webkit-text-stroke-width: 0.8px;
+      background: #4caf50;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.5rem;
+      border-top: 3px solid black;
+    }
+    .foot .s-links{
+  display: flex;
+  justify-content: center;
+  margin: 0rem 5rem;
+  align-items: center;
+}
+.foot .s-links i{
+  margin: 1rem 2rem;
+  font-size: 1.5rem;
+  background: #FFFFFF70;
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow:  1px 0px 50px 0.5px #fff;
+  transition: all .3s linear;
+  cursor: pointer;
+}
+.foot .s-links i:hover{
+  transform: translateY(-10px);
+}
+.foot .s-links .fa-facebook{
+  color: #1A2CF2;
+  padding: 1rem 1.3rem;
+}
+.foot .s-links .fa-instagram {
+  color: #E135F1;
+}
+.foot .s-links .fa-twitter {
+  color: #0087FF;
+}
+.foot .s-links .fa-youtube {
+  color: red;
+}
+.social-media-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0rem 0rem 0rem;
+}
+.foot hr{
+  width: 20%;
+  position: absolute;
+  left:40%;
+}
+    .foot span{
+      color: gold;
+      letter-spacing: 1px;
+    }
+    
+/*-----------media-queries-----------*/
+    @media only screen and (max-width:768px){
+      html{font-size: 45%;}
+      
+      .container{
+         border-bottom: 1px solid black;
+         height: 4rem;
+       }
+      .logo li a{
+         font-size: 2.5rem;
+         letter-spacing: 2px;
+       }
+      .container a{
+         -webkit-text-stroke-width: 0.8px;
+       }
+      .container li{
+         font-size: 1.6rem;
+       }
+      .container i{
+      -webkit-text-stroke-width: 0px;
+      margin-right: 0.6rem;
+      }
+      
+      section{flex-direction: column;
+        font-family: sans-serif;
+        height: 100vh;
+      }
+      .section{margin: 10px 0px;}
+      .section img{
+        width: 43.7rem;
+        height: inherit;
+        border: 1px solid black;
+        margin: 0px auto;
+      }
+      section h5{
+        border-bottom: 2px solid black;
+        letter-spacing: 1.5px;
+      }
+      .sec1{
+        padding-left: 2px;
+        border:2px solid black;
+        min-height: 20rem;
+        height: 20rem;
+        margin: 10px auto;
+        -webkit-text-stroke-width: 0.5px;
+        letter-spacing: 1px;
+      }
+      section i{
+        padding-right: 5px;
+      }
+      
+      section li{
+      border-top: 2px solid black;
+      letter-spacing: 2px;
+      }
+      
+      
+      .foot{
+        -webkit-text-stroke-width: 0.1px;
+        border-top: 1px solid black;
+      }
+      .foot .s-links i{
+        margin: 1.5rem 1rem;
+        background: #FFFFFF70;
+        box-shadow:  1px 0px 20px 0.5px #fff;
+      }
+   .foot hr{
+      width: 30%;
+      position: absolute;
+      left: 35%;
+      }
+      
+    }
+    </style>
+    
+</head>
+
+
+<body onload="myFunction()">
+  
+  <div id="preloader">
+  </div>
+  <nav class="container">
+     <div class="logo">
+     <li><a href="index.html">MAAFI</a></li>
+     
+     </div>
+     <div class="menu">
+     <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+     <li><a href="#"><i class="fa fa-user-circle"></i>About</a></li>
+     <li><a href="mailto:sujeetkgupta5263@gmail.com?subject=my problems&body=write your problems"><i class="fa fa-envelope"></i>Contact Us</a></li>
+     </div>
+   </nav>
+  <section>
+     <div class="section">
+       <img src="logo.jpg">
+     </div>
+    <div class="sec1">
+    <h5><i class="fas fa-school"></i>ABOUT THE HEAD OF <abbr title="Modern & Advanced Fundamental Institution">MAAFI</abbr></h5>
+  <i class="fas fa-user-circle"></i> Name : Sujeet Kr Gupta
+   <br><hr>
+  <i class="fas fa-user-graduate"></i> Qualification : B.Sc (Department of Zoology)
+   <br><hr>
+   <i class="fas fa-route"></i>Location : Patesar Chand Kaimur (Bhabua) Bihar
+   <br><hr>
+  <i class="fas fa-award"></i> Teaching Experience : More than 2 years.
+   <br><hr>
+  <i class="fas fa-phone"></i> Contact : +91 6207744806
+   <br><hr>
+  <i class="fas fa-envelope"></i> E-mail : sujeetkgupta5263@gmail.com
+   <br><hr>
+   <li><i class="fas fa-pen"></i>Aim : keep learning & keep growing</li>
+  <!---- Teaching-Experence : ---->
+  
+    </div>
+   
+  </section>
+  
+  <footer class="foot">
+    <p class="social-media-links">Important&nbsp;<span>links</span></p>
+    <hr color="#fff">
+     <div class="s-links" style="font-size: 2rem;">
+     <a href="https://www.facebook.com/sujeet.krgupta.921" target="_ayush"><i class="fa fa-facebook"></i></a>
+     <a href="https://instagram.com/sujeet.krgupta.921?utm_medium=copy_link" target="_ayush"><i class="fa fa-instagram"></i></a>
+     <a href="https://twitter.com/Ayush43173433?s=08" target="_ayush"><i class="fa fa-twitter"></i></a>
+     <a href="" target="_ayush"><i class="fab fa-youtube"></i></a>
+   </div>
+   <center> copyright 2021 &copy; <span>MAAFI</span></center>
+  </footer>
+<script>
+  var slack = document.getElementById('preloader');
+function myFunction(){
+  preloader.style.display = 'none';
+}
+</script>
+</body>
+
+</html>
