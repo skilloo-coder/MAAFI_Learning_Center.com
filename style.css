@@ -277,11 +277,11 @@ section h5 span{
   font-size: 1.5rem;
   }
  
-}
+}medimediaa
 
-/*------second-media-query-----_--*/
-@media (max-width: 320px) {
-    /*---this is section----*/
+/*------second-media-query-----_--
+@ (max-width: 320px) {
+    /*---thi is
   
   
   section h1{font-size: 2rem;}
@@ -297,8 +297,5 @@ section h5 span{
   }
 
   section h5{
-    font-size: 1rem;
-    margin-top: 1.5px;
-  }
-  
-}
+    font-si*/
+
