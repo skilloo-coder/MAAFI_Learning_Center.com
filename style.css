@@ -278,3 +278,27 @@ section h5 span{
   }
  
 }
+
+/*------second-media-query-----_--*/
+@media (max-width: 320px) {
+    /*---this is section----*/
+  
+  
+  section h1{font-size: 2rem;}
+  
+  section h5 span{
+  top: 70px;
+  }
+  
+  section h6{
+  border-top: 0.8px solid black;
+  border-bottom: 0.8px solid black;
+  font-size: 0.8rem;
+  }
+
+  section h5{
+    font-size: 1rem;
+    margin-top: 1.5px;
+  }
+  
+}
