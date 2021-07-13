@@ -299,3 +299,88 @@ section h5 span{
   section h5{
     font-si*/
 
+ /*-------second-media-query-for-width-320px--------*/
+
+@media (min-width: 320px), (max-width:767px) {
+
+    /*---this is section----*/
+
+  
+
+  
+
+  section h1{font-size: 2.2rem;}
+
+  
+
+  section h5 span{
+
+  top: 70px;
+
+  }
+
+  
+
+  section h6{
+
+  border-top: 0.8px solid black;
+
+  border-bottom: 0.8px solid black;
+
+  font-size: 1.3rem;
+
+  }
+
+  section h5{
+
+    font-size: 1rem;
+
+    margin-top: 5px;
+
+  }
+
+  section hr{
+
+    display: none;
+
+  }
+
+  /*----------this is foot er-----------*/
+
+.mobile-container .foot{
+
+  -webkit-text-stroke-width: 0.3px;
+
+  height: 2.3rem;
+
+  border-top: 1.3px solid black;
+
+  }
+
+.mobile-container .foot .copyright{
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  }
+
+ .mobile-container .foot .s-links i{
+
+  margin: 0rem 1.1rem;
+
+  font-size: 1.3rem;
+
+  }
+
+ .mobile-container .foot .copyright p{
+
+  font-size: 1.2rem;
+
+  }
+
+  
+
+}
